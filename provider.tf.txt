@@ -1,0 +1,6 @@
+provider "openstack" {
+  user_name   = "XXX"
+  tenant_name = "XXX" # ur choice if u want this line keep it or remove this and proceed.
+  password    = "secret"
+  auth_url    = "http://your-cloud-prodivder.com"
+}
